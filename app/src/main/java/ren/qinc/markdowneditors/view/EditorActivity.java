@@ -85,8 +85,10 @@ public class EditorActivity extends BaseToolbarActivity implements IEditorActivi
 //        getAppBar().addView(mExpandLayout);
 
         getIntentData();
-        mEditorFragment = EditorFragment.getInstance(currentFilePath);
+
         mEditorMarkdownFragment = EditorMarkdownFragment.getInstance();
+        mEditorFragment = EditorFragment.getInstance(currentFilePath);
+
 
         initViewPager();
         initTab();

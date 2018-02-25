@@ -18,12 +18,6 @@
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
       tools:context=".view.EditorActivity">
-    <item
-        android:id="@+id/action_other_operate"
-        android:orderInCategory="83"
-        android:title="@string/action_other_operate"
-        android:icon="@drawable/ic_add_white_24dp"
-        app:showAsAction="always"/>
 
     <item
         android:id="@+id/action_save"
@@ -32,6 +26,20 @@
         android:icon="@drawable/ic_action_save"
         app:showAsAction="always"/>
 
+
+    <item
+        android:id="@+id/action_other_operate"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:orderInCategory="83"
+        android:title="@string/action_other_operate"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_other_change"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:orderInCategory="83"
+        android:title="@string/action_other_operate"
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/action_share"
